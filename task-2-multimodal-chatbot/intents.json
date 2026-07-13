@@ -1,0 +1,38 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hello",
+          "Good morning",
+          "good afternoon"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! How can I help you?",
+          "Hey! What can I do for you?",
+          "Hi! How are you feeling today?",
+          "Hello! How may I assist you?",
+          "Good day! How can I be of service?",
+          "Good morning. I hope you had a good night's sleep. How are you feeling today?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "CreatorInformation",
+        "patterns": [
+          "Who created you?",
+          "Who is your creator?"
+        ],
+        "responses": [
+          "I was created by a developer using Python and NLP!"
+        ],
+        "context_set": ""
+      }
+    ]
+  }
+  
